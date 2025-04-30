@@ -1,4 +1,16 @@
 version: 2.1
+metadata:
+  annotations:
+    circleci.com/project-id: 026d4314-88c9-4e87-a63f-aaa6301a9093
+  labels:
+    circleci.com/component-name: my-k8s-app
+    circleci.com/version: 1.0.0
+spec:
+  template:
+    metadata:
+      labels:
+        circleci.com/component-name: my-k8s-app
+        circleci.com/version: 1.0.0
 jobs:
   build:
     docker:
