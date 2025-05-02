@@ -22,7 +22,7 @@ spec:
         circleci.com/version: 1.0.0
     spec:
       containers:
-      - name: my-container
+      - name: my-k8s-app
         image: alexh2004/my-k8s-app:qa
         imagePullPolicy : Always
         ports:
